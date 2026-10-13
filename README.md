@@ -1,5 +1,8 @@
 # SchoolProject23
 
+# How To
+
+If you are modifying code files, follow these terminal steps. If this is your first time, make sure you have Git installed on your computer.
 
 # One-Time Setup: Copy the Project to Your Computer
 
