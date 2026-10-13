@@ -1,34 +1,25 @@
 # SchoolProject23
 
-# How To
+# How To Do Things!!!!!!!!
 
-If you are modifying code files, follow these terminal steps. If this is your first time, make sure you have Git installed on your computer.
 
-# One-Time Setup: Copy the Project to Your Computer
+ # How to code and save changes:
 
-Open your terminal (or Command Prompt) and run:
-bash
-git clone <PASTE_OUR_REPOSITORY_URL_HERE>
-cd <OUR_PROJECT_FOLDER_NAME>
-Use code with caution.
+1. Open your repository on GitHub and press the . (period) key on your keyboard.
+2. A browser version of VS Code will launch. You can create and edit your index.html, style.css, and script.js files right here.
+3. To save your work, click the Source Control icon (the tree-branch symbol on the left menu), type a short message (e.g., "Fixed navbar menu"), and click Commit and Push.
 
- # 2. The Daily Routine: Update the Repository
+# How to see your live site (GitHub Pages):
 
-Every time you want to add your changes, open your terminal inside the project folder and run these three commands in order:
-bash
-# Step 1: Stage all your new and modified files
-git add .
+To see how your HTML/CSS actually looks without downloading it, turn on GitHub Pages:
+1. Go back to your main repository page on GitHub.com.
+2. Click Settings (the gear icon at the top).
+3. On the left sidebar, click Pages.
+4. Under "Build and deployment", change the Source dropdown to Deploy from a branch.
+5. Under "Branch", click the dropdown, select main, and click Save.
+6. Wait 1–2 minutes, then refresh the page. GitHub will give you a custom link (like username.github.io/repo-name) where you and your team can see your live website update every time you save code!
 
-# Step 2 Update your files to whatever s on github!!!!!
-git pull origin main
 
-# Step 3: Save your changes locally with a descriptive note
-git commit -m "Briefly explain what you changed or added"
-
-# Step 4: Send your changes to our GitHub repository
-git push origin main
-Use code with caution.
-(Note: If you are working on a specific branch instead of main, replace main with your branch name, like git push origin feature-login).
 
 ⚠️ CRITICAL STEP: Pull Before You Push!
 
