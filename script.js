@@ -5,10 +5,10 @@ Title:
 Program Element List (10 Most Complex Concepts / Syntax used):
 
 
-Teammates (Author Role)
+Teammates Kyle (Github Repo Owner, Leader ig) (Author, Role)
 
 
-Version:
+Version:1
 
 
 
