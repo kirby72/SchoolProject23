@@ -22,9 +22,11 @@ To see how your HTML/CSS actually looks without downloading it, we're using GitH
 
 
 
-⚠️ CRITICAL STEP: Pull Before You Push!
+# Create a brand new folder manually
 
-Before you start working each day, always run this command to download any changes your teammates made. This prevents annoying code conflicts:
-bash
-git pull origin main
-Use code with caution.
+1. Go to your repository on GitHub.
+2. Click Add file and select Create new file.
+3. In the file name box, type your Folder Name, followed by a forward slash (/). Typing the slash turns the text into a folder directory.
+4. Because the folder cannot be empty, type a temporary file name in the new box that appears (e.g., README.md or .gitkeep).
+5. Scroll down and click Commit changes.
+
