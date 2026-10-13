@@ -39,7 +39,7 @@ This is the easiest way to move files or folders directly in your browser withou
 5. Type a commit message (e.g., "Move file into folder") and click the checkmark or Commit & Push button to save the changes to your repository.
 
 # Method 2: Editing the File Path (Single Files)
-# If you only need to move a single text or code file and prefer the standard GitHub interface:
+If you only need to move a single text or code file and prefer the standard GitHub interface:
 
 1. Navigate to the file you want to move inside your repository.
 2. Click the pencil icon (Edit this file) in the upper-right corner of the file view.
