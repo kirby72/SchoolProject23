@@ -58,11 +58,11 @@ Step 2: Edit the file path
 
 1. In the top-right corner of the file view, click the ✏️ (pencil icon) to edit the file.
 2. Look at the text box at the top where the file name and path are displayed. It will look like this:
-ProjectFiles / style.css
+ProjectFiles / test.txt
 3. Click into that box, put your cursor right before ProjectFiles, and press Backspace to delete the slash before ProjectFiles.
 
-It should say Main/ProjectFilesstyle.css 
-delete ProjectFiles so it says Main/Test.txt
+It should say Main/ProjectFilestest.txt
+delete ProjectFiles so it says Main/test.txt
    
 5. Type assets in its place, followed by a forward slash /.
 6. The box should now look like this:
