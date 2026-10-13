@@ -73,3 +73,11 @@ Step 3: Save the changes
 1. Scroll down to the bottom of the page to the Commit changes box.
 2. Type a message like "Renamed folder to assets".
 3. Click Commit changes
+
+# VSCode Tutorial
+Press period (.) to open VSCode inside of the repository(repo for short) then edit the file, then press CTRL + S to save the change(s), next you will be see that you will need to push them to the repo, click the check mark and type a message of what was changed.
+
+# To Get Out Of VSCode
+at the bottom in blue you will see Github press it and in the search bar you will see the 2nd option go to repository and that will take you back to the repo
+# I WILL MAKE A VIDEO EXPLAINING MOST OF THESE COMING SOON!!!!!!!!!!
+
