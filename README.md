@@ -45,3 +45,31 @@ This is the easiest way to move files or folders directly in your browser withou
 2. Click the pencil icon (Edit this file) in the upper-right corner of the file view.
 3. In the filename input box at the top, change the path by typing your folder name followed by a forward slash right before the file name (e.g., change script.js to my-folder/script.js).
 4. Scroll to the bottom, write a commit message, and click Commit changes.
+
+# How to change a folder name?
+
+Go into your folder on GitHub
+
+1. Open your repository on GitHub.
+2. Click on the ProjectFiles folder to open it.
+3. Click on the first file inside that folder (Text.txt).
+
+Step 2: Edit the file path
+
+1. In the top-right corner of the file view, click the ✏️ (pencil icon) to edit the file.
+2. Look at the text box at the top where the file name and path are displayed. It will look like this:
+ProjectFiles / style.css
+3. Click into that box, put your cursor right before ProjectFiles, and press Backspace to delete the slash before ProjectFiles.
+
+It should say Main/ProjectFilesstyle.css 
+delete ProjectFiles so it says Main/Test.txt
+   
+5. Type assets in its place, followed by a forward slash /.
+6. The box should now look like this:
+assets / style.css
+
+Step 3: Save the changes
+
+1. Scroll down to the bottom of the page to the Commit changes box.
+2. Type a message like "Renamed folder to assets".
+3. Click Commit changes
