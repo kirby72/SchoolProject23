@@ -1,0 +1,10 @@
+{
+  "name": "School Project Workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.live-server"
+      ]
+    }
+  }
+}
