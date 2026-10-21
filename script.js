@@ -26,7 +26,7 @@ console.log('supa cool pick-tcha')
 //Introduction (Summary) Part 2 UI/UX 
 
 //Explanation (Rules, Instructions, Controls, Navigate, Manage User Expectations) Part 3 UI/UX
-console.log("Welcome to CNN ");
+console.log("Welcome to CNN How canwe help you?");
 
 //User Input Part 4 UI/UX
 //Reiterate User Input Part 4.5 UI/UX
