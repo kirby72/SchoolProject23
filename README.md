@@ -5,7 +5,7 @@
 
  # How to code and save changes:
 
-1. Open your repository on GitHub  (You're here) now press the . (period) key on your keyboard.
+1. Open your repository on GitHub  (You're here)now go to branches make sure you're on main and refresh it anyway now press the . (period) key on your keyboard.
  
 3. A browser version of VS Code will launch. You can create and edit your things.html, style.css, and script.js files right here.
 4. To save your work, click the Source Control icon (the tree-branch symbol on the left menu), type a short message (e.g., "Fixed a menu"), and click Commit and Push.
