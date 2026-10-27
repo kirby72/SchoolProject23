@@ -17,11 +17,11 @@ Date (Last Updated)
 let x = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
-let _1 = false; 
-let _2 = false;
-let _3 = false ;  
-
+let _f = false; 
+let _k = false;
+let _c = false ;  
 let isComplete = false; 
+
 
 
 
@@ -50,14 +50,27 @@ if (person != null) {
   "Hello " + person + "! How are you today?";
 }
 
+
+//Save Load Options (Main)
+
 if (_c)
 {
 let fahrenheit = Math.floor(celsius*9/5);
-let celsius = kelvin-273;
-let kelvin = x;
+let celsius = prompt("Please enter your temperature in Celsius", "0");
+let kelvin = celsius+273;
 }
-//Save Load Options (Main)
-
+else if (_k)
+{
+let fahrenheit = Math.floor(celsius*9/5);
+let celsius = kelvin-273;
+let kelvin = prompt("Please enter your temperature in Kelvin", "0" );
+}
+else if (_f)
+{
+let fahrenheit = prompt("Please enter your temperature in Fahrenheit", "0") ;
+let celsius = Math.floor((fahrenheit-32)*5/9);
+let kelvin = celsius+273;
+}
 
 
 //Output Part 5
