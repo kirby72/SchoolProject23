@@ -41,9 +41,9 @@ console.log("Welcome to CNN, how can we help you?");
 //User Input Part 4 UI/UX
 //Reiterate User Input Part 4.5 UI/UX
 
-alert("Heelo I'm an alert box!!");
+alert("Hello I'm an alert box!!");
 
-let person = prompt("Please enter your name", "Harry Potter");
+let person = prompt("Please enter your name", "Really Cool Person");
 
 if (person != null) {
   document.getElementById("demo").innerHTML =
