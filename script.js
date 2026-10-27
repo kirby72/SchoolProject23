@@ -54,7 +54,7 @@ if (_c)
 {
 let fahrenheit = Math.floor(celsius*9/5);
 let celsius = kelvin-273;
-let kelvin = ;
+let kelvin = x;
 }
 //Save Load Options (Main)
 
