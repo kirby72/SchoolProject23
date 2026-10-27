@@ -4,3 +4,12 @@
     margin: 0;
     padding: 0;
 } 
+
+.like-button {
+    background-color: #FF00DAFF;
+    color: white;
+    border: 2px solid #F00FEAEB;
+    padding: 10px 20px;
+    cursor: loading;
+    font-size: 16px;
+}
