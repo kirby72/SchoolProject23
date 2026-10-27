@@ -17,9 +17,15 @@ Date (Last Updated)
 let x = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
-let fahrenheit = Math.floor(celsius*9/5);
-let celsius = kelvin-273;
-let kelvin = ;
+let _1 = false; 
+let _2 = false;
+let _3 = false ;  
+
+let isComplete = false; 
+
+
+
+
 
 //Title Screen (Ascii Art) Part 1 UI/UX 
 console.log('supa cool pick-tcha')
@@ -40,6 +46,12 @@ if (person != null) {
   "Hello " + person + "! How are you today?";
 }
 
+if (_c)
+{
+let fahrenheit = Math.floor(celsius*9/5);
+let celsius = kelvin-273;
+let kelvin = ;
+}
 //Save Load Options (Main)
 
 
