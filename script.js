@@ -14,7 +14,7 @@ Date (Last Updated)
 //beginning of Program
 
 // variable declaration
-let x = 5; //let can be changed
+let t = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
 let _c = false ;  
@@ -24,8 +24,8 @@ let _k = false;
 
 let isComplete = false; 
 
-const dofunction1 = (x) => {
-  x = true
+const dofunction1 = (i) => {
+  i = true
 };
 
 
