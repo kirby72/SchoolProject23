@@ -82,8 +82,7 @@ alert("Hello I'm an alert box!!");
 let person = prompt("Please enter your name", "Really Cool Person");
 
 if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today?";
+  document.getElementById("demo").innerHTML = "Hello " + person + "! How are you today?";
 }
 
 
@@ -110,7 +109,7 @@ let kelvin = celsius+273;
 
 
 //Output Part 5
-console.log("Game over,		your score		congratulations	");
+console.log(`Game over,		your score   ${person}		congratulations	`);
 
 
 //Thank you message Part 7
