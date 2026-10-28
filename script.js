@@ -72,9 +72,9 @@ console.log(
 console.log("Welcome to CNN, how can we help you?");
 
 //User Input Part 4 UI/UX
-document.getElementById("BtnC").onclick = dofunction1;
-document.getElementById("BtnF").onclick = dofunction2;
-document.getElementById("BtnK").onclick = dofunction3;
+document.getElementById("btnC").onclick = dofunction1;
+document.getElementById("btnF").onclick = dofunction2;
+document.getElementById("btnK").onclick = dofunction3;
 //Reiterate User Input Part 4.5 UI/UX
 
 alert("Hello I'm an alert box!!");
