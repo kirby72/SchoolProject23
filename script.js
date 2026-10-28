@@ -20,9 +20,24 @@ const earth = 'round'; // const is permanent
 let _f = false; 
 let _k = false;
 let _c = false ;  
+
 let isComplete = false; 
 
-getElementById(btnK) 
+document.getElementById("BtnC").onclick = dofunction1;
+document.getElementById("BtnF").onclick = dofunction2;
+document.getElementById("BtnK").onclick = dofunction3;
+
+if (dofunction1) {
+  _c = true;
+}
+
+if (dofunction2) {
+  _f = true;
+}
+
+if (dofunction3) {
+  _k = true;
+}
 
 
 
