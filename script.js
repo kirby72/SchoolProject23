@@ -24,14 +24,21 @@ let _k = false;
 
 let isComplete = false; 
 
-const dofunction1 = (i) => {
-  i = true
+const dofunction1 = () => {
+  _c = true
 };
 
+const dofunction2 = () => {
+  _f = true
+};
 
-document.getElementById("BtnC").onclick = dofunction1(_c);
-document.getElementById("BtnF").onclick = dofunction2(_f);
-document.getElementById("BtnK").onclick = dofunction3(_k);
+const dofunction3 = () => {
+  _k = true
+};
+
+document.getElementById("BtnC").onclick = dofunction1();
+document.getElementById("BtnF").onclick = dofunction2();
+document.getElementById("BtnK").onclick = dofunction3();
 
 
 
