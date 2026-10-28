@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    size: 144px;
 }
 
 .button-row button {
