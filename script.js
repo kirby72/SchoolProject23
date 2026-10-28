@@ -17,7 +17,7 @@ Date (Last Updated)
 let t = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
-let _c = false ;  
+let _c = false;  
 let _f = false; 
 let _k = false;
 
