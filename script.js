@@ -17,27 +17,27 @@ Date (Last Updated)
 let x = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
+let _c = false ;  
 let _f = false; 
 let _k = false;
-let _c = false ;  
+
 
 let isComplete = false; 
 
-document.getElementById("BtnC").onclick = dofunction1;
-document.getElementById("BtnF").onclick = dofunction2;
-document.getElementById("BtnK").onclick = dofunction3;
+const dofunction1 = (x) => {
+  x = true
+};
 
-if (dofunction1) {
-  _c = true;
-}
 
-if (dofunction2) {
-  _f = true;
-}
+document.getElementById("BtnC").onclick = dofunction1(_c);
+document.getElementById("BtnF").onclick = dofunction2(_f);
+document.getElementById("BtnK").onclick = dofunction3(_k);
 
-if (dofunction3) {
-  _k = true;
-}
+
+
+
+
+
 
 
 
