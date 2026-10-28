@@ -25,16 +25,23 @@ let _k = false;
 let isComplete = false; 
 
 const dofunction1 = () => {
-  _c = true
+  _c = true;
+  _f = false;
+  _k = false;
   console.log("celcius");
 };
 
 const dofunction2 = () => {
-  _f = true
+  _c = false;
+  _f = true;
+  _k = false;
   console.log("fahrenheit");
 };
 
 const dofunction3 = () => {
+
+  _c = false;
+  _f = false;
   _k = true
   console.log("kelvin");
 };
