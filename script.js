@@ -26,14 +26,17 @@ let isComplete = false;
 
 const dofunction1 = () => {
   _c = true
+  console.log("celcius");
 };
 
 const dofunction2 = () => {
   _f = true
+  console.log("fahrenheit");
 };
 
 const dofunction3 = () => {
   _k = true
+  console.log("kelvin");
 };
 
 
