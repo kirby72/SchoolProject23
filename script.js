@@ -36,9 +36,7 @@ const dofunction3 = () => {
   _k = true
 };
 
-document.getElementById("BtnC").onclick = dofunction1();
-document.getElementById("BtnF").onclick = dofunction2();
-document.getElementById("BtnK").onclick = dofunction3();
+
 
 
 
@@ -64,6 +62,9 @@ console.log(
 console.log("Welcome to CNN, how can we help you?");
 
 //User Input Part 4 UI/UX
+document.getElementById("BtnC").onclick = dofunction1();
+document.getElementById("BtnF").onclick = dofunction2();
+document.getElementById("BtnK").onclick = dofunction3();
 //Reiterate User Input Part 4.5 UI/UX
 
 alert("Hello I'm an alert box!!");
