@@ -4,13 +4,15 @@
     margin: 0;
     padding: 0;
 } 
-
+/*
+Padding =>>> Height  Width
+*/
 .like-button {
     background-color: #FF00DAFF;
     color: white;
     border: 10px solid #F00FEAEB;
     padding: 10px 20px;
-    
+    border-radius: 5px;
     font-size: 16px;
     transition: all 1.5s;
 }
@@ -19,10 +21,11 @@
   border: #FF00DAFF;
   background-color: #F00FEAEB;
   border: 15px;
-  padding: 20px 10px;
+  padding: 20px 20px;
   font-size: 20px;
   cursor:crosshair;
   transition: all 1.5s;
+  border-radius: 5px;
 }
 
 .button-row {
