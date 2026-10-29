@@ -27,34 +27,6 @@ Padding =>>> Height  Width
   border-radius: 5px;
 }
 
-.button-row {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    size: 144px;
-}
-
-.button-row button {
-  padding: 10px 16px;
-  font-size: 14px;
-  border: 3px solid;
-  border-radius: 6px;
-  background-color: #f9f9f9;
-  cursor: pointer;
-  transition: all 0.7s ease;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.button-row button:hover {
-  border: 3px solid #FF00FFFF;
-  border-radius: 9px;
-  color: #FF00FFFF;
-  background-color: #f9f9f9;
-  cursor: pointer;
-  
-}
-
 .secret-words {
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

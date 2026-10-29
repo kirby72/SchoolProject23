@@ -65,7 +65,7 @@ if (person != null) {
 }
 
 
-let celsius = Number(prompt("Please enter your temperature in Celsius", 0));
+let celsius = Number(prompt("Please enter the Celsius temperture you would like to convert", 0));
 let fahrenheit = Math.floor(celsius * 9 / 5 + 32);
 let kelvin = celsius + 273;
 
