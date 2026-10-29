@@ -38,3 +38,10 @@
   background-color: #f9f9f9;
   cursor: pointer;
 }
+
+.secret-words {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aqua;
+  background-color: aquamarine;
+}
