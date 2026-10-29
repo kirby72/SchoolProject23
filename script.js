@@ -106,29 +106,24 @@ if (person != null) {
 }
 
 
-//Save Load Options (Main)
+//Save Load Options (Main) Part 5
 
-if (_c)
-{
-let fahrenheit = Math.floor(celsius*9/5);
-let celsius = prompt("Please enter your temperature in Celsius", "0");
-let kelvin = celsius+273;
-}
-else if (_k)
-{
-let fahrenheit = Math.floor(celsius*9/5);
-let celsius = kelvin-273;
-let kelvin = prompt("Please enter your temperature in Kelvin", "0" );
-}
-else if (_f)
-{
-let fahrenheit = prompt("Please enter your temperature in Fahrenheit", "0") ;
-let celsius = Math.floor((fahrenheit-32)*5/9);
-let kelvin = celsius+273;
+if (_c) {
+  celsius = Number(prompt("Please enter your temperature in Celsius", 0));
+  fahrenheit = Math.floor(celsius * 9 / 5 + 32);
+  kelvin = celsius + 273;
+} else if (_k) {
+  kelvin = Number(prompt("Please enter your temperature in Kelvin", 0));
+  celsius = kelvin - 273;
+  fahrenheit = Math.floor(celsius * 9 / 5 + 32);
+} else if (_f) {
+  fahrenheit = Number(prompt("Please enter your temperature in Fahrenheit", 0));
+  celsius = Math.floor((fahrenheit - 32) * 5 / 9);
+  kelvin = celsius + 273;
 }
 
 
-//Output Part 5 Should play after all the stuff first
+//Output Part 6 Should play after all the stuff first
 if (celsius && fahrenheit && kelvin){
   if ( celsius >= -21) {
   console.log(`So ${person}, that temperture is REALLY COLD like ARCTIC COLD!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
