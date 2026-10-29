@@ -20,7 +20,9 @@ const earth = 'round'; // const is permanent
 let _c = false;  
 let _f = false; 
 let _k = false;
-
+let fahrenheit;
+let celsius;
+let kelvin;
 
 let isComplete = false; 
 
@@ -28,14 +30,14 @@ const dofunction1 = () => {
   _c = true;
   _f = false;
   _k = false;
-  console.log("celcius");
+  console.log("Celcius selected");
 };
 
 const dofunction2 = () => {
   _c = false;
   _f = true;
   _k = false;
-  console.log("fahrenheit");
+  console.log("Fahrenheit selcted");
 };
 
 const dofunction3 = () => {
@@ -43,7 +45,7 @@ const dofunction3 = () => {
   _c = false;
   _f = false;
   _k = true
-  console.log("kelvin");
+  console.log("Kelvin selected");
 };
 
 const dofunction4 = () => {
@@ -99,23 +101,49 @@ if (_c)
 let fahrenheit = Math.floor(celsius*9/5);
 let celsius = prompt("Please enter your temperature in Celsius", "0");
 let kelvin = celsius+273;
+alert(prompt("Please enter your temperature in Celsius", "0") );
 }
 else if (_k)
 {
 let fahrenheit = Math.floor(celsius*9/5);
 let celsius = kelvin-273;
 let kelvin = prompt("Please enter your temperature in Kelvin", "0" );
+alert(prompt("Please enter your temperature in Kelvin", "0" ) );
 }
 else if (_f)
 {
 let fahrenheit = prompt("Please enter your temperature in Fahrenheit", "0") ;
 let celsius = Math.floor((fahrenheit-32)*5/9);
 let kelvin = celsius+273;
+alert(prompt("Please enter your temperature in Fahrenheit", "0"));
 }
 
 
 //Output Part 5 Should play after all the stuff first
-console.log(`Game over,		your score   ${person}		congratulations	`);
+if ( celsius >= -21) {
+  console.log(`So ${person}, that temperture is REALLY COLD like ARCTIC COLD!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if (-20 >= celsius >= -11) {
+  console.log(`So ${person}, that temperture is REALLY COLD you definitly need a jacket!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if (-10 >= celsius >= -1) {
+  console.log(`So ${person}, that temperture is really cold, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if (0 >= celsius >= 9) {
+  console.log(`So ${person}, that temperture is pretty cold, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+} 
+else if (10 <= celsius <= 19) {
+  console.log(`So ${person}, that temperture is a little cold, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if (30 >= celsius >= 20) {
+  console.log(`So ${person}, that temperture is pretty warm, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if ( 40 >= celsius >= 31) {
+  console.log(`So ${person}, that temperture is really warm, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
+else if ( celsius >= 41) {
+  console.log(`WOW ${person}, that temperture is REALLY HOT like DESERT HOT!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
+}
 
 
 //Thank you message Part 7
