@@ -46,6 +46,11 @@ const dofunction3 = () => {
   console.log("kelvin");
 };
 
+const dofunction4 = () => {
+
+  document.getElementById("hehe").innerHTML = "WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS";
+};
+
 
 
 
@@ -75,6 +80,7 @@ console.log("Welcome to CNN, how can we help you?");
 document.getElementById("btnC").onclick = dofunction1;
 document.getElementById("btnF").onclick = dofunction2;
 document.getElementById("btnK").onclick = dofunction3;
+document.getElementById("Acdl").onclick = dofunction4;
 //Reiterate User Input Part 4.5 UI/UX
 
 alert("Hello I'm an alert box!!");
@@ -108,7 +114,7 @@ let kelvin = celsius+273;
 }
 
 
-//Output Part 5
+//Output Part 5 Should play after all the stuff first
 console.log(`Game over,		your score   ${person}		congratulations	`);
 
 
