@@ -17,52 +17,14 @@ Date (Last Updated)
 let t = 5; //let can be changed
 const earth = 'round'; // const is permanent
 
-let _c = false;  
-let _f = false; 
-let _k = false;
+let c = false;  
+let f = false; 
+let k = false;
 let fahrenheit;
 let celsius;
 let kelvin;
 
 let isComplete = false; 
-
-const dofunction1 = () => {
-  _c = true;
-  _f = false;
-  _k = false;
-  console.log("Celcius selected");
-  prompt("Please enter your temperature in Celsius, no letters", "0")
-};
-
-const dofunction2 = () => {
-  _c = false;
-  _f = true;
-  _k = false;
-  console.log("Fahrenheit selcted");
-  prompt("Please enter your temperature in Fahrenheit, no letters", "0")
-};
-
-const dofunction3 = () => {
-
-  _c = false;
-  _f = false;
-  _k = true
-  console.log("Kelvin selected");
-  prompt("Please enter your temperature in Kelvin, no letters", "0" )
-};
-
-const dofunction4 = () => {
-
-  document.getElementById("hehe").innerHTML = "WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS WORDS";
-};
-
-
-
-
-
-
-
-
 
 
 
@@ -91,10 +53,7 @@ console.log(
 console.log("Welcome to CNN, how can we help you?");
 
 //User Input Part 4 UI/UX
-document.getElementById("btnC").onclick = dofunction1;
-document.getElementById("btnF").onclick = dofunction2;
-document.getElementById("btnK").onclick = dofunction3;
-document.getElementById("Acdl").onclick = dofunction4;
+
 //Reiterate User Input Part 4.5 UI/UX
 
 alert("Hello I'm an alert box!!");
@@ -106,25 +65,22 @@ if (person != null) {
 }
 
 
-//Save Load Options (Main) Part 5
+let celsius = Number(prompt("Please enter your temperature in Celsius", 0));
+let fahrenheit = Math.floor(celsius * 9 / 5 + 32);
+let kelvin = celsius + 273;
 
-if (_c) {
-  celsius = Number(prompt("Please enter your temperature in Celsius", 0));
-  fahrenheit = Math.floor(celsius * 9 / 5 + 32);
-  kelvin = celsius + 273;
-} else if (_k) {
-  kelvin = Number(prompt("Please enter your temperature in Kelvin", 0));
-  celsius = kelvin - 273;
-  fahrenheit = Math.floor(celsius * 9 / 5 + 32);
-} else if (_f) {
-  fahrenheit = Number(prompt("Please enter your temperature in Fahrenheit", 0));
-  celsius = Math.floor((fahrenheit - 32) * 5 / 9);
-  kelvin = celsius + 273;
-}
+
+ //Save Load Options (Main) Part 5
+  
+  
+
+
+
+
 
 
 //Output Part 6 Should play after all the stuff first
-if (celsius && fahrenheit && kelvin){
+if (celsius && fahrenheit && kelvin ) {
   if ( celsius >= -21) {
   console.log(`So ${person}, that temperture is REALLY COLD like ARCTIC COLD!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
 }
