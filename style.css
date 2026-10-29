@@ -8,17 +8,17 @@
 .like-button {
     background-color: #FF00DAFF;
     color: white;
-    border: 15px solid #F00FEAEB;
+    border: 10px solid #F00FEAEB;
     padding: 10px 20px;
     cursor: loading;
     font-size: 16px;
-    transition: all .7s;
+    transition: all 1.5s;
 }
 
 .like-button:hover {
   border: #FF00DAFF;
   background-color: #F00FEAEB;
-
+  border: 15px;
 }
 
 .button-row {
