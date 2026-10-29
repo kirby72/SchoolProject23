@@ -31,6 +31,7 @@ const dofunction1 = () => {
   _f = false;
   _k = false;
   console.log("Celcius selected");
+  prompt("Please enter your temperature in Celsius, no letters", "0")
 };
 
 const dofunction2 = () => {
@@ -38,6 +39,7 @@ const dofunction2 = () => {
   _f = true;
   _k = false;
   console.log("Fahrenheit selcted");
+  prompt("Please enter your temperature in Fahrenheit, no letters", "0")
 };
 
 const dofunction3 = () => {
@@ -46,6 +48,7 @@ const dofunction3 = () => {
   _f = false;
   _k = true
   console.log("Kelvin selected");
+  prompt("Please enter your temperature in Kelvin, no letters", "0" )
 };
 
 const dofunction4 = () => {
@@ -81,7 +84,7 @@ console.log(
  ##       ##     ## ##  ####  ##   ##  ##       ##   ##      ##    ##       ##   ##
  ##    ## ##     ## ##   ###   ## ##   ##       ##    ##     ##    ##       ##    ##
   ######   #######  ##    ##    ###    ######## ##     ##    ##    ######## ##     ##  ` )
-  
+
 //Introduction (Summary) Part 2 UI/UX 
 
 //Explanation (Rules, Instructions, Controls, Navigate, Manage User Expectations) Part 3 UI/UX
@@ -110,26 +113,24 @@ if (_c)
 let fahrenheit = Math.floor(celsius*9/5);
 let celsius = prompt("Please enter your temperature in Celsius", "0");
 let kelvin = celsius+273;
-alert(prompt("Please enter your temperature in Celsius", "0") );
 }
 else if (_k)
 {
 let fahrenheit = Math.floor(celsius*9/5);
 let celsius = kelvin-273;
 let kelvin = prompt("Please enter your temperature in Kelvin", "0" );
-alert(prompt("Please enter your temperature in Kelvin", "0" ) );
 }
 else if (_f)
 {
 let fahrenheit = prompt("Please enter your temperature in Fahrenheit", "0") ;
 let celsius = Math.floor((fahrenheit-32)*5/9);
 let kelvin = celsius+273;
-alert(prompt("Please enter your temperature in Fahrenheit", "0"));
 }
 
 
 //Output Part 5 Should play after all the stuff first
-if ( celsius >= -21) {
+if (celsius && fahrenheit && kelvin){
+  if ( celsius >= -21) {
   console.log(`So ${person}, that temperture is REALLY COLD like ARCTIC COLD!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
 }
 else if (-20 >= celsius >= -11) {
@@ -153,7 +154,11 @@ else if ( 40 >= celsius >= 31) {
 else if ( celsius >= 41) {
   console.log(`WOW ${person}, that temperture is REALLY HOT like DESERT HOT!!, that in Celcius is: ${celsius} in Fahrenheit is: ${fahrenheit} and in Kelvin is: ${kelvin}	`);
 }
-
+} 
+else {
+  console.log("error please try again!" )
+  console.error("undefined variables")
+}
 
 //Thank you message Part 7
 console.log("Thanks, PAtronage, discounts warm fuzzy msg make feel good and come back for more");
