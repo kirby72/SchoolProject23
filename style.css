@@ -18,9 +18,8 @@ Padding =>>> Height  Width
 }
 
 .like-button:hover {
-  border: #FF00DAFF;
+  border: 10px solid #FF00DAFF;
   background-color: #F00FEAEB;
-  border: 15px;
   padding: 20px 20px;
   font-size: 20px;
   cursor:crosshair;
